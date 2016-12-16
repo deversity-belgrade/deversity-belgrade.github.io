@@ -1,1 +1,2 @@
-# DEVersity-net.github.io
+# DEVersity
+*Skills for your ideas*
