@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?k8h01i');
+  src:  url('fonts/icomoon.eot?k8h01i#iefix') format('embedded-opentype'),
+  url('fonts/icomoon.ttf?k8h01i') format('truetype'),
+  url('fonts/icomoon.woff?k8h01i') format('woff'),
+  url('fonts/icomoon.svg?k8h01i#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-linkedin:before {
+  content: "\e90a";
+}
+.icon-arrow:before {
+  content: "\e900";
+}
+.icon-cloud:before {
+  content: "\e901";
+}
+.icon-contact:before {
+  content: "\e902";
+}
+.icon-facebook:before {
+  content: "\e903";
+}
+.icon-instagram:before {
+  content: "\e904";
+}
+.icon-planet:before {
+  content: "\e905";
+}
+.icon-rocket:before {
+  content: "\e906";
+}
+.icon-twitter:before {
+  content: "\e907";
+}
+.icon-what-we-do:before {
+  content: "\e908";
+}
+.icon-who-we-are:before {
+  content: "\e909";
+}

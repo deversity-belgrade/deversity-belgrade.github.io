@@ -1,0 +1,354 @@
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  background: #27aae1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  @media screen and (max-width: 992px) {
+    body {
+      margin-left: 0;
+      margin-right: 0; } }
+  body input {
+    color: #ffffff; }
+  body ::placeholder {
+    color: #ffffff;
+    opacity: 0.8; }
+  body ::-ms-input-placeholder {
+    color: #ffffff;
+    opacity: 0.8; }
+  body :-ms-input-placeholder {
+    color: #ffffff;
+    opacity: 0.8; }
+  body p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0;
+    padding: 0; }
+  body h2 {
+    font-size: 25px;
+    padding: 0;
+    text-align: center;
+    letter-spacing: 5px;
+    margin: 0; }
+    @media screen and (max-width: 768px) {
+      body h2 {
+        font-size: 20px;
+        letter-spacing: 3px; } }
+  body .cursive {
+    font-family: 'Neuton', serif;
+    font-weight: 200; }
+  body .header-title {
+    font-size: 23px;
+    letter-spacing: 6px;
+    padding-top: 15px; }
+    @media screen and (max-width: 768px) {
+      body .header-title {
+        font-size: 18px;
+        letter-spacing: 5px;
+        padding: 15px 10px; } }
+  body .deversity-logo-container {
+    height: 376px;
+    min-height: 376px;
+    position: relative; }
+    body .deversity-logo-container svg {
+      margin-top: 206px;
+      width: 400px;
+      height: 133px;
+      margin-right: -50px; }
+    body .deversity-logo-container .icon-rocket {
+      position: absolute;
+      left: -154px;
+      top: 160px;
+      font-size: 120px; }
+    body .deversity-logo-container .icon-cloud {
+      position: absolute;
+      left: -34px;
+      top: 40px;
+      font-size: 120px; }
+    body .deversity-logo-container .icon-planet {
+      position: absolute;
+      left: 171px;
+      top: 60px;
+      font-size: 100px; }
+    body .deversity-logo-container .icon-arrow {
+      position: absolute;
+      left: 370px;
+      top: 101px;
+      font-size: 150px; }
+    @media screen and (max-width: 768px) {
+      body .deversity-logo-container {
+        height: 160px;
+        min-height: 160px; }
+        body .deversity-logo-container svg {
+          margin-top: 80px;
+          width: 180px;
+          height: 60px;
+          margin-right: -23px; }
+        body .deversity-logo-container .icon-rocket {
+          font-size: 60px;
+          top: 60px;
+          left: -70px; }
+        body .deversity-logo-container .icon-cloud {
+          font-size: 60px;
+          top: 0;
+          left: -25px; }
+        body .deversity-logo-container .icon-planet {
+          font-size: 57px;
+          top: 0;
+          left: 70px; }
+        body .deversity-logo-container .icon-arrow {
+          font-size: 67px;
+          top: 30px;
+          left: 155px; } }
+  body .title-coming-soon {
+    font-size: 36px;
+    letter-spacing: 10px; }
+    @media screen and (min-width: 769px) and (max-width: 992px) {
+      body .title-coming-soon {
+        font-size: 32px; } }
+    @media screen and (max-width: 768px) {
+      body .title-coming-soon {
+        font-size: 18px; } }
+  body .quick-intro {
+    font-size: 24px;
+    padding-top: 35px;
+    margin-bottom: 18px; }
+    @media screen and (max-width: 768px) {
+      body .quick-intro {
+        font-size: 14px; } }
+  body .info-container {
+    margin-bottom: 60px;
+    max-width: 1234px;
+    padding: 0 130px; }
+    body .info-container .deversity-toolbox-container {
+      height: 220px; }
+      body .info-container .deversity-toolbox-container .icon {
+        display: inline-block;
+        font-size: 110px;
+        color: white;
+        margin-top: 70px; }
+    body .info-container .content {
+      border-left: 2px solid white;
+      margin-left: -34px;
+      padding: 0 0 0 25px;
+      display: inline-block; }
+      body .info-container .content .info-title {
+        font-size: 60px;
+        margin: -20px 0 17px;
+        text-align: left;
+        padding: 0; }
+      body .info-container .content .info-contents {
+        margin-left: 9px;
+        margin-bottom: 2px;
+        text-align: justify;
+        line-height: 35px;
+        letter-spacing: 0.1px; }
+    @media screen and (min-width: 993px) and (max-width: 1200px) {
+      body .info-container .content {
+        margin-left: -29px;
+        padding-left: 20px; } }
+    @media screen and (min-width: 769px) and (max-width: 992px) {
+      body .info-container {
+        padding: 0; }
+        body .info-container .content {
+          margin-left: -26px;
+          padding-left: 14px; }
+          body .info-container .content .info-contents {
+            font-size: 15px;
+            max-width: 650px; } }
+    @media screen and (max-width: 768px) {
+      body .info-container {
+        padding: 0 31px;
+        max-width: 711px; }
+        body .info-container .deversity-toolbox-container {
+          height: 170px; }
+          body .info-container .deversity-toolbox-container .icon {
+            margin-top: 50px; }
+        body .info-container .content {
+          margin-left: -15px;
+          padding-left: 8px; }
+          body .info-container .content .info-title {
+            margin-top: -9px;
+            font-size: 36px; }
+          body .info-container .content .info-contents {
+            font-size: 14px;
+            margin-left: 4px; } }
+  body .areas-of-expertise-container {
+    margin-top: 70px; }
+    body .areas-of-expertise-container h2 {
+      display: inline-block; }
+      body .areas-of-expertise-container h2 span {
+        border-bottom: 1px solid #ec1c24; }
+    body .areas-of-expertise-container .content {
+      width: 610px;
+      max-width: 610px;
+      margin-top: 74px;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; }
+      body .areas-of-expertise-container .content p {
+        text-transform: uppercase;
+        font-size: 24px;
+        min-width: 300px;
+        margin-bottom: 48px; }
+    @media screen and (max-width: 768px) {
+      body .areas-of-expertise-container h2 {
+        font-size: 20px; }
+      body .areas-of-expertise-container .content {
+        width: 100%;
+        margin-top: 23px; }
+        body .areas-of-expertise-container .content p {
+          font-size: 16px;
+          margin-bottom: 30px; } }
+  body .tech-container {
+    margin-top: 12px;
+    margin-bottom: 60px;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around; }
+    body .tech-container img {
+      margin: 20px 30px; }
+    @media screen and (min-width: 769px) and (max-width: 992px) {
+      body .tech-container {
+        max-width: 671px;
+        width: 100%; } }
+    @media screen and (max-width: 768px) {
+      body .tech-container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px; }
+        body .tech-container img {
+          margin: -5px;
+          -webkit-transform: scale(0.6);
+          /* Saf3.1+, Chrome */
+          -moz-transform: scale(0.6);
+          /* FF3.5+ */
+          -ms-transform: scale(0.6);
+          /* IE9 */
+          -o-transform: scale(0.6);
+          /* Opera 10.5+ */
+          transform: scale(0.6); } }
+  body #team {
+    width: 100%;
+    max-width: 1022px; }
+  body .clients {
+    margin-top: 70px;
+    margin-bottom: 140px; }
+    body .clients h2 {
+      display: inline-block;
+      border-bottom: 1px solid #ec1c24; }
+    body .clients .clients-subtitle {
+      margin-top: 31px;
+      margin-bottom: 31px; }
+    body .clients .clients-logos {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      body .clients .clients-logos .vetsuccess {
+        margin: 0 11px; }
+      body .clients .clients-logos .join21 {
+        margin: 0 62px; }
+    @media screen and (min-width: 769px) and (max-width: 992px) {
+      body .clients {
+        padding-left: 50px;
+        padding-right: 50px; } }
+    @media screen and (max-width: 768px) {
+      body .clients {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 44px; }
+        body .clients .clients-logos {
+          flex-direction: column; }
+          body .clients .clients-logos a, body .clients .clients-logos a.vetsuccess, body .clients .clients-logos a.join21 {
+            margin-bottom: 30px; } }
+  body .contact h2.title {
+    font-size: 36px; }
+  body .contact .icon-contact {
+    display: inline-block;
+    margin-top: 95px;
+    font-size: 110px; }
+  body .contact h2.get-in-touch {
+    font-size: 49px; }
+  body .contact h3.fill-form-below {
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 0; }
+  body .contact form {
+    margin-top: 40px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto; }
+    body .contact form label {
+      align-self: start;
+      font-size: 16px;
+      margin-top: 20px;
+      margin-bottom: 9px; }
+    body .contact form .contact-input {
+      width: 100%;
+      font-size: 16px;
+      line-height: 30px;
+      padding: 5px 12px;
+      border: 1px solid #ffffff;
+      background-color: #27aae1; }
+      body .contact form .contact-input.message {
+        line-height: 18px; }
+    body .contact form .send-button {
+      margin: 16px 0 0;
+      width: 100%;
+      display: inline-block;
+      padding: 9px;
+      background: #ffffff;
+      color: #4a4a4a;
+      font-size: 16px;
+      border: 0;
+      border-radius: 0; }
+  @media screen and (max-width: 768px) {
+    body .contact h2.title {
+      font-size: 20px; }
+    body .contact h2.get-in-touch {
+      font-size: 30px; }
+    body .contact h3.fill-form-below {
+      font-size: 16px; }
+    body .contact form {
+      margin-top: 20px; } }
+  body .social {
+    margin-top: 78px;
+    margin-bottom: 100px; }
+    body .social h2 {
+      font-size: 49px; }
+    body .social .social-icons {
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: row;
+      align-items: center; }
+      body .social .social-icons a {
+        color: white;
+        margin: 20px 20px 0;
+        font-size: 50px;
+        text-decoration: none; }
+        body .social .social-icons a :visited {
+          color: white; }
+    @media screen and (max-width: 768px) {
+      body .social h2 {
+        font-size: 30px; }
+      body .social .social-icons a {
+        margin: 20px 10px 0; } }
+  body .copyright {
+    font-size: 12px; }
+
