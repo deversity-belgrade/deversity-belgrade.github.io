@@ -16,7 +16,7 @@ body {
     body {
       margin-left: 0;
       margin-right: 0; } }
-  body input {
+  body input, body textarea {
     color: #ffffff; }
   body ::placeholder {
     color: #ffffff;
