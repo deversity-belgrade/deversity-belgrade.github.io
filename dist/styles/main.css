@@ -43,6 +43,11 @@ body {
       body h2 {
         font-size: 20px;
         letter-spacing: 3px; } }
+  body a {
+    color: white;
+    text-decoration: none; }
+    body a :visited {
+      color: white; }
   body .cursive {
     font-family: 'Neuton', serif;
     font-weight: 200; }
@@ -64,6 +69,11 @@ body {
       width: 400px;
       height: 133px;
       margin-right: -50px; }
+    body .deversity-logo-container.jobs {
+      height: 325px;
+      min-height: 325px; }
+      body .deversity-logo-container.jobs svg {
+        margin-top: 93px; }
     body .deversity-logo-container .icon-rocket {
       position: absolute;
       left: -154px;
@@ -93,6 +103,13 @@ body {
           width: 180px;
           height: 60px;
           margin-right: -23px; }
+        body .deversity-logo-container.jobs {
+          height: 290px;
+          min-height: 290px; }
+          body .deversity-logo-container.jobs svg {
+            width: 360px;
+            height: 120px;
+            margin-right: -46px; }
         body .deversity-logo-container .icon-rocket {
           font-size: 60px;
           top: 60px;
@@ -109,6 +126,15 @@ body {
           font-size: 67px;
           top: 30px;
           left: 155px; } }
+    @media screen and (max-width: 480px) {
+      body .deversity-logo-container.jobs {
+        height: 220px;
+        min-height: 220px; }
+        body .deversity-logo-container.jobs svg {
+          margin-top: 80px;
+          width: 270px;
+          height: 90px;
+          margin-right: -35px; } }
   body .title-coming-soon {
     font-size: 36px;
     letter-spacing: 10px; }
@@ -125,6 +151,30 @@ body {
     @media screen and (max-width: 768px) {
       body .quick-intro {
         font-size: 14px; } }
+  body .go-to-home {
+    width: 100%;
+    max-width: 1030px;
+    padding-left: 10px;
+    text-align: left; }
+    body .go-to-home a {
+      font-family: 'Roboto Mono', monospace;
+      display: flex;
+      align-items: center; }
+      body .go-to-home a span {
+        line-height: 30px;
+        min-height: 30px;
+        display: inline-block;
+        margin-top: 1px; }
+        body .go-to-home a span.icon-arrow-left {
+          font-size: 30px;
+          margin-top: 0; }
+      @media screen and (max-width: 768px) {
+        body .go-to-home a span {
+          line-height: 20px;
+          min-height: 20px;
+          font-size: 15px; }
+          body .go-to-home a span.icon-arrow-left {
+            font-size: 20px; } }
   body .info-container {
     margin-bottom: 60px;
     max-width: 1234px;
@@ -152,6 +202,17 @@ body {
         text-align: justify;
         line-height: 35px;
         letter-spacing: 0.1px; }
+      body .info-container .content.jobs .info-title {
+        font-size: 30px;
+        margin-top: 5px; }
+      body .info-container .content.jobs .info-contents {
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 20px; }
+      body .info-container .content.jobs ul li {
+        margin-bottom: 10px; }
     @media screen and (min-width: 993px) and (max-width: 1200px) {
       body .info-container .content {
         margin-left: -29px;
@@ -181,7 +242,11 @@ body {
             font-size: 36px; }
           body .info-container .content .info-contents {
             font-size: 14px;
-            margin-left: 4px; } }
+            margin-left: 4px; }
+          body .info-container .content.jobs .info-title {
+            font-size: 20px; }
+          body .info-container .content.jobs .info-contents {
+            font-size: 16px; } }
   body .areas-of-expertise-container {
     margin-top: 70px; }
     body .areas-of-expertise-container h2 {
@@ -327,6 +392,9 @@ body {
       font-size: 16px; }
     body .contact form {
       margin-top: 20px; } }
+  body .jobs-contact .icon-contact {
+    display: inline-block;
+    font-size: 110px; }
   body .social {
     margin-top: 78px;
     margin-bottom: 100px; }
