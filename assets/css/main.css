@@ -2005,6 +2005,12 @@
 		text-align: center;
 	}
 
+/* Jobs */
+
+.content.jobs a, .contact a {
+  text-decoration: underline;
+}
+
 /* Form */
 
 	form {
@@ -3412,9 +3418,3 @@
 			}
 
 	}
-
-/* Jobs */
-
-.content.jobs a, .contact a {
-  text-decoration: underline;
-}
