@@ -420,3 +420,7 @@ body {
   body .copyright {
     font-size: 12px; }
 
+.content.jobs a, .contact a {
+  text-decoration: underline;
+}
+
